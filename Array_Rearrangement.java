@@ -22,5 +22,6 @@ public class Array_Rearrangement {
             arr[i]=-1*arr[i]-1;
         }
         System.out.println(Arrays.toString(arr));
+        // my name is rijwan
     }
 }
