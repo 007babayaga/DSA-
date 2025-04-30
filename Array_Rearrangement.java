@@ -1,7 +1,6 @@
 
 import java.util.Arrays;
 // import java.util.Scanner;
-
 public class Array_Rearrangement {
     public static void main(String[] args) {
         // Your code here
@@ -22,6 +21,6 @@ public class Array_Rearrangement {
             arr[i]=-1*arr[i]-1;
         }
         System.out.println(Arrays.toString(arr));
-        // my name is rijwan
+    
     }
 }
