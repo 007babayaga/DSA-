@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Array_Rearrangement {
     public static void main(String[] args) {
         // Your code here
-        int[] arr = {1,3,0,2,5,4};
+        int[] arr = {2,0,1,4,5,3};
         for(int i=0;i<arr.length;i++){
             if(arr[i]>=0){
                 int idx = arr[i],val=i;
