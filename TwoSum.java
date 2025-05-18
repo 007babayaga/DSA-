@@ -1,6 +1,7 @@
 public class TwoSum {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
+        int flag =-1;
         int targt = 7;
         int i=0;
         int j = arr.length-1;
@@ -12,9 +13,14 @@ public class TwoSum {
                 i++;
             }
             else{
-    
+                System.out.println("found");
+                flag=0;
+                break;
             }
         }
-        System.out.println("Not found");
+        if(flag==-1){
+             System.out.println("Not found");
+        }
+       
     }
 }
