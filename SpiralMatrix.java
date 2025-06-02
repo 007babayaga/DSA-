@@ -48,6 +48,6 @@ public class SpiralMatrix {
             }
             minc++;
         }
-
+        // long time no see
     }
 }
