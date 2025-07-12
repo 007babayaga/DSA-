@@ -13,7 +13,7 @@ public class GcdOfsubSequence {
     }
     public static int GCD(int a,int b){
         int max = Math.max(a, b);
-        int min = Math.min(max, b);
+        int min = Math.min(a, b);
         while (max%min!=0) {
             int temp = min;
             min = max%min;
