@@ -20,5 +20,5 @@ public class GcdOfsubSequence {
             max=temp;
         }
         return min;
-    }
+    } //
 }
